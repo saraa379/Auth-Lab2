@@ -60,6 +60,10 @@ window.addEventListener('load', function(event) {
         // The firebase.auth.AuthCredential type that was used.
         var credential = error.credential;
         console.log('sign in is uncessful: ' + errorMessage);
+	      
+	var errorMsg = document.getElementById('errorMsg');
+        errorMsg.innerText = 'Sign in is unsuccessful. Please try again.';
+	      
       });//end of signInWithPopup function
   })//end of btnLogIn eventListener
 
@@ -84,6 +88,9 @@ window.addEventListener('load', function(event) {
 
         var accountWrap = document.getElementById('accountWrap');
         accountWrap.style.display = 'none';
+	      
+	var errorMsg = document.getElementById('errorMsg');
+        errorMsg.innerText = 'Log in to see which Harry Potter character you are';
 
       })
       .catch(function(error) {
