@@ -1,0 +1,70 @@
+<!--    Lab 2 - Authentisering,   Sarantsetseg Hedenfalk   -->
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>Lab 2 - Auth - Sara</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Rasa" rel="stylesheet">
+	<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+	<script src="script/scripts.js"></script>
+
+</head>
+<body>
+<div id="wrap">
+
+	<section id="hero">
+
+		<h1 id="welcome">Welcome to the magical world of Harry Potter!</h1>
+		<p>Log in to see which Harry Potter character are you</p>
+		<button id="btnLogIn" class="center">Log in via Github</button>
+		<!--<button id="btnRedirect" class="center">Log in via Github</button>-->
+
+	</section>
+	
+</div><!--end of wrap-->
+
+<div id="accountWrap">
+
+	<header>
+			<p id="logOut">Logged out</p>	
+	</header>
+	
+	<section id="account">
+
+		<h3 id="titleH3">You are ...</h3>
+
+		<div id="content">
+
+			<img id="pic" src="img/hp.jpg" alt="character">
+			<div id="text">
+				<h4>You main characteristics are: </h4>
+				<p id="traitP1">Coming ...</p>
+				<p id="traitP2">Coming ...</p>
+				<p id="traitP3">Coming ...</p>
+				<p id="traitP4">Coming ...</p>
+			</div>
+
+		</div><!--end of accountWrap-->
+
+	</section>		
+
+	<footer>
+
+		<img id="footerPic" src="img/hermione.jpg" alt="username">
+
+		<div id="footerDiv">
+			<h4>Account info</h4>
+			<p id="usernameP">Username</p>
+			<p id="emailP">Email</p>
+			<p id="uidP">User ID</p>
+		</div>
+		
+	</footer>
+
+</div> <!--end of accountWrap-->
+</body>
+</html>
