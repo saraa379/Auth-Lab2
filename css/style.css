@@ -130,9 +130,8 @@ a {
 			linear-gradient(rgba(0,0,75,0.5),rgba(0,0,55,0.7)),
 			url('../img/hp4.jpg');
 
-	background-position: center center;
+	background-position: center 150%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	position: relative;
 	flex-flow: column nowrap;
