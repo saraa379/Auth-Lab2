@@ -134,7 +134,7 @@ function gotoAccountPage(userObj){
   wrap.style.display = 'none';
 
   var accountWrap = document.getElementById('accountWrap');
-  accountWrap.style.display = 'block';
+  accountWrap.style.display = 'flex';
 
   //Filling out account info
   var usernameP = document.getElementById('usernameP');
