@@ -230,6 +230,7 @@ a {
 		position: absolute;
 		bottom: 0;
 		margin-top: 30px;
+		align-self: flex-end;
 
 	}
 		#footerPic {
