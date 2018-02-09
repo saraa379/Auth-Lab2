@@ -228,6 +228,8 @@ a {
 		align-items: center;
 		align-content: center;
 		color: white;
+		position: absolute;
+		bottom: 0;
 
 	}
 		#footerPic {
