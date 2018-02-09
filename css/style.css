@@ -233,6 +233,8 @@ a {
 		align-content: center;
 		color: white;
 		align-self: flex-end;
+		position: relative;
+		bottom: 0;
 
 	}
 		#footerPic {
