@@ -133,6 +133,7 @@ a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	flex-flow: column nowrap;
 }
 
 /*Header styles of account page*/
@@ -180,6 +181,7 @@ a {
 	flex-flow: column nowrap;
 	justify-content: space-around;
 	align-items: center;
+	clear: both;
 }
 
 	#text {
